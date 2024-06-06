@@ -18,7 +18,7 @@ glEnable(GL_LIGHT0)
 glLightfv(GL_LIGHT0, GL_AMBIENT, [0.5, 0.5, 0.5, 1])
 glLightfv(GL_LIGHT0, GL_DIFFUSE, [1.0, 1.0, 1.0, 1])
 
-sphere_object = gluNewQuadric() 
+sphere_object = gluNewQuadric()
 
 glMatrixMode(GL_PROJECTION)
 gluPerspective(45, (window_size[0]/window_size[1]), 0.1, 50.0)
